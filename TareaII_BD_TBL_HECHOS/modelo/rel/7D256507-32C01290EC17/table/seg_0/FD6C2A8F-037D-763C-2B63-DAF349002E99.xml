@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD6C2A8F-037D-763C-2B63-DAF349002E99" name="CLIENTES">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-12 15:12:02 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLIENTE" id="649485B8-05FE-C188-5C44-749CFD235EB9">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-12 15:12:47 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DIRECCION" id="30A9637E-E1DD-3DC9-34FB-F236D6FCD3A6">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-12 15:30:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C919C25A-3C7A-F1AD-EA1E-DDC79FB5E447" referredColumn="A92320C2-F298-C066-4C1E-6FD1C04195A7"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="CEB84136-810B-DCAC-B208-06B6F8A64C77">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-12 15:12:47 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A50D0CF6-80A9-E8EF-9A00-324ECDC83C42" name="TBL_CLIENTES_PK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-12 15:12:47 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="649485B8-05FE-C188-5C44-749CFD235EB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98A0309D-C7EF-26D9-1FE0-4977EE50B0B1" name="CLIENTES_DIRECCION_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-12 15:30:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30A9637E-E1DD-3DC9-34FB-F236D6FCD3A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
