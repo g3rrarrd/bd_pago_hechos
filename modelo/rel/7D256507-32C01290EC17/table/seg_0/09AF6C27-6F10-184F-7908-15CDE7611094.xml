@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09AF6C27-6F10-184F-7908-15CDE7611094" name="CIUDAD">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-12 15:29:50 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CIUDAD" id="C477584A-98CD-2578-8F77-637523328053">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-12 15:30:10 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DEPARTAMENTO" id="D84B0A23-FDF5-01F8-93E6-E10685D4A6B1">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-12 15:30:18 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C681BE4-0CF9-B27B-C414-D9E3A65B5A81" referredColumn="40480027-19A3-EF19-475C-CC474A21BCB7"/>
+</associations>
+</Column>
+<Column name="CIUDAD" id="AF2DD79A-17E4-2878-7FC9-67B6EF2B5459">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-12 15:30:10 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E6E3972-45A4-B4E8-7170-AE35558008AD" name="CIUDAD_PK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-12 15:30:10 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C477584A-98CD-2578-8F77-637523328053"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AAEDB73-3149-7322-43C4-A5B85CBF53E0" name="CIUDAD_DEPARTAMENTO_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-12 15:30:18 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D84B0A23-FDF5-01F8-93E6-E10685D4A6B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

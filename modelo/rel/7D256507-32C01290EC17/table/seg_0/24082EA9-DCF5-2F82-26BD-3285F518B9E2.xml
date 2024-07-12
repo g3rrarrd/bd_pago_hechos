@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24082EA9-DCF5-2F82-26BD-3285F518B9E2" name="EMPLEADOS">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-12 15:20:00 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EMPLEADO" id="D6C034F7-4352-E4A2-B109-81CCAFEF40BB">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-12 15:20:38 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_EMP" id="423145E6-B7FE-D6C0-DB7E-762617F1FFDB">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-12 15:20:38 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIENDA" id="742452EF-1780-36E9-4E10-D9A67D95DB45">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-12 15:21:48 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="396CA066-54FF-9E8D-39CE-E9B3B59859B0" referredColumn="00821271-61D1-0DA2-3650-1DBBF087B35B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4952B31-3291-2C85-F219-F470042A0983" name="EMPLEADOS_PK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-12 15:20:38 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6C034F7-4352-E4A2-B109-81CCAFEF40BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62A81AE6-5AAA-E3A1-16C1-47F5B0C7A0C3" name="EMPLEADOS_TIENDA_FK">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-12 15:21:48 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="742452EF-1780-36E9-4E10-D9A67D95DB45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
