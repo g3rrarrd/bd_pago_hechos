@@ -72,6 +72,17 @@
 <ownDataTypeParameters>,,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CANTIDAD" id="808231D5-A958-6BD7-FDB5-7CF80C1375EE">
+<createdBy>g_rod</createdBy>
+<createdTime>2024-07-12 18:54:43 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="FC219150-B4BF-5DF1-BE17-E757AD2DEC1C" name="TBL_HECHOS_PK">

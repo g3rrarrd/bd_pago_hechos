@@ -30,9 +30,9 @@
 <ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_CIUDAD" id="C2330DB1-0239-2B1A-C6AA-64CF10F911DC">
+<Column name="ID_DIRECCION" id="E35BCE08-4D9D-C0A0-BD09-7EDD0C625865">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-12 15:32:00 UTC</createdTime>
+<createdTime>2024-07-12 18:54:04 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,7 +41,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="3FC8AF53-9FAF-04EF-9415-F674202BDDC7" referredColumn="C477584A-98CD-2578-8F77-637523328053"/>
+<colAssociation fkAssociation="9FF6DDBF-8535-9FCB-338B-5099C9D663B0" referredColumn="A92320C2-F298-C066-4C1E-6FD1C04195A7"/>
 </associations>
 </Column>
 </columns>
@@ -57,14 +57,14 @@
 <colUsage columnID="00821271-61D1-0DA2-3650-1DBBF087B35B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E71CE425-3ECD-B7D0-7A4A-61A27CE162FB" name="TIENDA_CIUDAD_FK">
+<ind_PK_UK id="56DC0929-0577-EFF0-0E93-A16514D43010" name="TIENDA_DIRECCION_FK">
 <createdBy>g_rod</createdBy>
-<createdTime>2024-07-12 15:32:00 UTC</createdTime>
+<createdTime>2024-07-12 18:54:04 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C2330DB1-0239-2B1A-C6AA-64CF10F911DC"/>
+<colUsage columnID="E35BCE08-4D9D-C0A0-BD09-7EDD0C625865"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
